@@ -1,0 +1,121 @@
+#menu
+{
+    display:block;
+    padding: 1% 5%;
+    margin: 1%;
+    background-color: silver;
+    border-radius: 30px;
+    border-style:double ;
+
+}
+
+#menu ul
+{
+    display: flex;
+    background-color: silver;
+    padding: 0%;
+    margin: 0%;
+}
+
+#menu li
+{
+    display: flex;
+    background-color: black;
+    border-radius: 30px;
+    margin: 1%;
+    padding: 1%;
+}
+
+#menu li a
+{
+    display: flex;
+    font-size: medium;
+    color: white;
+}
+
+#menu li:hover
+{
+    background-color: gray;
+}
+
+#menu a:hover
+{
+    color:red;
+}
+
+#formulario
+{
+    padding: 1%;
+    margin: 1%;
+    background-color: silver;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#formulario ul li
+{
+    display: flex;
+    margin: 0% ;
+    padding: 0% 1%;
+    border: double black;
+}
+
+#n1
+{
+    border: double black;
+}
+
+#n1:hover
+{
+    background-color: gray;
+    color: red;
+    border: double black;
+}
+
+#n2
+{
+    border: double black;
+    
+}
+
+#n2:hover
+{
+    background-color: gray;
+    color: red;
+    border: double black;
+}
+
+#calc
+{
+    background-color: black;
+    color: white;
+    border-radius: 30%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#calc:hover
+{
+    color: red;
+}
+
+#formulario a
+{
+    margin: 0% 3%;
+    padding: 1% 1%;
+    background-color: silver;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;  
+    border: double black;
+}
+
+#result
+{
+    border: double black;
+}
+
+#result:hover
+{
+    background-color: black;
+    color: red;
+    border: double white;
+}

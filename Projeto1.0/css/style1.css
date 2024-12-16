@@ -1,0 +1,63 @@
+#menu
+{
+    display:block;
+    padding: 1% 5%;
+    margin: 1%;
+    background-color: silver;
+    border-radius: 30px;
+    border-style:double ;
+
+}
+
+#menu ul
+{
+    display: flex;
+    background-color: silver;
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+#menu li
+{
+    display: flex;
+    background-color: black;
+    border-radius: 30px;
+    margin: 1%;
+    padding: 1%;
+}
+
+#menu li a{
+
+    display: flex;
+    font-size: medium;
+    color: white;
+    
+}
+
+#menu li:hover
+{
+    background-color: gray;
+}
+
+#menu a:hover
+{
+    color:red;
+}
+
+#text
+{
+    border-style:double ;
+    background-color: silver;
+    color: black;
+    margin: 1% 1%;
+    padding: 1% 10%;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 30px;
+}
+
+#text h1:hover, h2:hover
+{
+    color:gray;
+}
